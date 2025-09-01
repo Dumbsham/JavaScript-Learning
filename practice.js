@@ -136,16 +136,35 @@
 // let twenty = discountCalculator(20);
 // console.log(twenty(200));
 
-function counter(){
-    let count = 0;
-    return function(){
-        count++;
-        return count;
-    };
-}
+// function counter(){
+//     let count = 0;
+//     return function(){
+//         count++;
+//         return count;
+//     };
+// }
 
-let c = counter();
-console.log(c());
-console.log(c());
-console.log(c());
-console.log(c());
+// let c = counter();
+// console.log(c());
+// console.log(c());
+// console.log(c());
+// console.log(c());
+
+
+// let d = counter(); //will have a diff count variable than c, so will start from 0
+// console.log(c());
+
+
+//Create a pure function to transform a value
+// function double(val){
+//     return val*2;
+// }
+
+// console.log(double(2));
+
+// (function(){
+//     const password = "secret password";
+//     console.log(password);
+// })();
+
+// console.log(password);//cannot be accessed 
